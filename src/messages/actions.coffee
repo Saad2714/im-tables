@@ -147,12 +147,10 @@ module.exports =
   'download-file': 'Download File',
   download: 'Download file'
   Galaxy: 'Send to Galaxy',
-  GenomeSpace: 'Upload to Genomespace',
   Drive: 'Save to Google Drive'
   Dropbox: 'Save to Dropbox'
   'Destdownload-file': 'File',
   DestGalaxy: 'Galaxy',
-  DestGenomespace: 'Genomespace',
   ExportAlt: "Send Data Somewhere Else",
   ExportLong: """
     <span class="hidden-tablet">Download</span>
@@ -164,12 +162,6 @@ module.exports =
     Galaxy
     <span class="im-only-widescreen">for analysis</span>
   """,
-  SendToGenomespace: """
-    <span class="hidden-tablet">Upload to</span>
-    <span class="im-only-widescreen">your</span>
-    Genomespace
-    <span class="im-only-widescreen">account</span>
-  """,
   MyGalaxy: "Send to your Galaxy",
   ForgetGalaxy: "Clear this galaxy URL",
   GalaxyHelp: "Start a file upload job within Galaxy",
@@ -177,7 +169,7 @@ module.exports =
   GalaxyAlt: "Send to a specific Galaxy",
   SaveGalaxyURL: "Make this my default Galaxy",
   WhatIsGalaxy: "What is Galaxy?",
-  WhatIsGalaxyURL: "http://wiki.g2.bx.psu.edu/",
+  WhatIsGalaxyURL: "https://galaxyproject.org/tutorials/g101/",
   GalaxyAuthExplanation: """
           If you have already logged into Galaxy with this browser, then the data
           will be sent into your active account. Otherwise it will appear in a 

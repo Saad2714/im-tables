@@ -15,7 +15,7 @@ Synopsis
 -----------------
 
 ```js
-    var imtables = require('imtables');
+    var imtables = require('im-tables');
 
     var element = document.querySelector('#my-id');
     var service = {root: 'http://www.flymine.org/query/service'};
@@ -51,13 +51,13 @@ as a commonjs module, from an AMD loader or as a window global. We recommend
 using npm and browserify:
 
 ```
-  npm install --save imtables
+  npm install --save im-tables
 ```
 
 Then in your code:
 
 ```
-  var imtables = require('imtables');
+  var imtables = require('im-tables');
 ```
 
 Issues & Support
@@ -65,7 +65,7 @@ Issues & Support
 
 For help and support, the developers may be contacted at:
 
-  dev@intermine.org
+  http://intermine.org/contact/
 
 For a public bug tracker, please visit the github issues tracker:
 
@@ -110,5 +110,4 @@ development of:
 Copyright
 ----------
 
-The copyright on this work is help by Alex Kalderimis and InterMine
-
+The copyright on this work is held by Alex Kalderimis, InterMine, and all other authors who have contributed to this repository.
